@@ -1,7 +1,10 @@
-import GameBoard from './GameBoard';
-import GameLogic from './GameLogic';
+import PlayingArea from '../components/playing-area/playing-area';
+import userClick from '../components/user-click/user-click';
 
-const board = new GameBoard(4);
-board.showImage();
-// eslint-disable-next-line no-unused-vars
-const logic = new GameLogic(board);
+document.addEventListener('DOMContentLoaded', () => {
+  const playingArea = new PlayingArea(document.querySelector('.playing-area'));
+
+  const randomMovingGoblinTimerId = setInterval(playingArea.randomMovingGoblin, 1000);
+
+  userClick(randomMovingGoblinTimerId);
+})
