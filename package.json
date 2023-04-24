@@ -39,7 +39,7 @@
     "webpack-dev-server": "^4.13.3"
   },
   "dependencies": {
-    "core-js": "3",
+    "core-js": "^3.6.5",
     "file-loader": "^6.2.0"
   }
 }
