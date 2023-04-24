@@ -15,7 +15,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "repository": "https://github.com/TakanawaYuku/ahj-event.git",
+  "repository": "https://github.com/TakanawaYuku/ahj-event",
   "author": "Takanawa Yuku <yukutakanawa@gmail.com>",
   "license": "MIT",
   "devDependencies": {
